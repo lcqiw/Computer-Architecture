@@ -1,0 +1,11 @@
+linachishti@Linas-MacBook-Air-2 assignment 2 % ./float_point_add
+Please enter two positive floating point values each with: - no more than 6 significant digits
+- a value between + 10**37 and 10**-37
+Enter Float 1: 34.5
+Enter float 2: 1.250
+
+Original pattern of Float 1: 0 1000 0100 000 1010 0000 0000 0000 0000
+Original pattern of Float 2: 0 0111 1111 010 0000 0000 0000 0000 0000
+Bit pattern of result : 0 1000 0100 000 1111 0000 0000 0000 0000
+EMULATED FLOATING RESULT FROM PRINTF ==>>> 35.75
+HARDWARE FLOATING RESULT FROM PRINTF ==>>> 35.75
