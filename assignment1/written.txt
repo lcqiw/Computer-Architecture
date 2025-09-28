@@ -1,0 +1,7 @@
+My program uses float_32 union to look at a 32 bit value by a floating point number and 23
+bit  mantissa, 8 bit exponent, and 1 bit sign. After reading the input, it builds readable 
+strings for the exponent and mantissa by walking their bits from most-significant to least-significant 
+checking each with  (1u << i) and writing '1' or '0'.It formats the exponent as xxxx xxxx and the mantissa 
+as xxx xxxx xxxx xxxx xxxx xxxx first 3 bits, then five 4 bit groups. It then combines sign, exponent, and 
+mantissa into one line. Lastly, it prints out mantissa and exponent in hex 0x%06x and 0x%02x
+with their bit strings, the sign bit, the decimal value with six places, and the full 32 bit string. 

@@ -1,0 +1,58 @@
+Assignment 1: Lina Chishti
+% ./fl
+oat_bits
+please enter a floating point number: 237.75
+
+
+the floating value for 237.75 is broken out as:
+  mantissa: 0x6dc000   or: 11 1101 1100 0000 0000 0000
+  exponent: 0x86       or: 1000 0110
+      sign: 0            or: 0
+in base 10: 237.750000  or: 0 1000 0110 1101110111100000000000000000  
+
+
+linachishti@Linas-MacBook-Air-2 assignment 1 % ./fl
+oat_bits
+please enter a floating point number: -.00000005126
+
+
+the floating value for -5.126e-08 is broken out as:
+  mantissa: 0x5c28f7   or: 10 1100 0010 1000 1111 0111
+  exponent: 0x66       or: 0110 0110
+      sign: 1            or: 1
+in base 10: -0.000000  or: 1 0110 0110 1011110000010110001111100111  
+
+linachishti@Linas-MacBook-Air-2 assignment 1 % ./fl
+oat_bits
+please enter a floating point number: -92457321.670245
+
+
+the floating value for -9.24573e+07 is broken out as:
+  mantissa: 0x30592d   or: 01 0000 0101 1001 0010 1101
+  exponent: 0x99       or: 1001 1001
+      sign: 1            or: 1
+in base 10: -92457320.000000  or: 1 1001 1001 0110000000101110010001011101  
+
+linachishti@Linas-MacBook-Air-2 assignment 1 % ./fl
+oat_bits 
+please enter a floating point number: 6.023E+23
+
+
+the floating value for 6.023e+23 is broken out as:
+  mantissa: 0x7f157f   or: 11 1111 0001 0101 0111 1111
+  exponent: 0xcd       or: 1100 1101
+      sign: 0            or: 0
+in base 10: 602299993035875123462144.000000  or: 0 1100 1101 1111111100001001010011111111  
+
+linachishti@Linas-MacBook-Air-2 assignment 1 % ./fl
+oat_bits
+please enter a floating point number: 1.67339E-40
+
+
+the floating value for 1.67339e-40 is broken out as:
+  mantissa: 0x01d279   or: 00 0001 1101 0010 0111 1001
+  exponent: 0x00       or: 0000 0000
+      sign: 0            or: 0
+in base 10: 0.000000  or: 0 0000 0000 0000000111101000100011111001  
+
+linachishti@Linas-MacBook-Air-2 assignment 1 % 
